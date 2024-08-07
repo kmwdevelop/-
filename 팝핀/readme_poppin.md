@@ -4,7 +4,7 @@
 
 #### 팝업스토어의 소식을 알림 받고, 정보를 제공받는 서비스 입니다.
 
-<img src="팝핀/poppin_store.png" width=500/>
+<img src="poppin_store.png" width=500/>
 
 ### 개발한 기능 2가지
 
