@@ -26,8 +26,8 @@
     
 
 ### 2. 알람
-<img src="alarmListNon.png" width=300/>&nbsp;
 <img src="alarmList.png" width=300/>&nbsp;
+<img src="alarmListNon.png" width=300/>&nbsp;
 <img src="alarmSettingOn.png" width=300/>&nbsp;
 <img src="alarmNoti.PNG" width=300/>&nbsp;
 
