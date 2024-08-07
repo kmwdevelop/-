@@ -10,8 +10,8 @@
 
 ### 1. 커스텀 캘린더
 
-<img src="팝핀/calendar02.PNG" width=300/>&nbsp;
-<img src="팝핀/calendarFull.PNG" width=300/>
+<img src="calendar02.PNG" width=300/>&nbsp;
+<img src="calendarFull.PNG" width=300/>
 
 - react-native-calendar 라이브러리를 커스텀(색상, 모양 등) 합니다.
 - 해당 날짜의 팝업스토어를 BottomSheet 로 보여줍니다.
@@ -26,10 +26,10 @@
     
 
 ### 2. 알람
-<img src="팝핀/alarmListNon.png" width=300/>&nbsp;
-<img src="팝핀/alarmList.png" width=300/>&nbsp;
-<img src="팝핀/alarmSettingOn.png" width=300/>&nbsp;
-<img src="팝핀/alarmNoti.PNG" width=300/>&nbsp;
+<img src="alarmListNon.png" width=300/>&nbsp;
+<img src="alarmList.png" width=300/>&nbsp;
+<img src="alarmSettingOn.png" width=300/>&nbsp;
+<img src="alarmNoti.PNG" width=300/>&nbsp;
 
 - 파이어베이스 알람 서비스와 연동합니다.
 - FCM Token을 받아와 앱서버에 등록하여 관리합니다.
