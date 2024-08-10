@@ -1,45 +1,50 @@
-# [프로젝트] 건강관리 앱 - Invites (2024.02 ~ 2024.05 / 4개월)
+# [프로젝트] 건강관리 앱 - Invites (2024.02 ~ 2024.05 / 3개월)
 
 ## **Invites란?**
 
 #### 운동 정보, 매 끼니 단/단/지를 쉽게 파악하는 등 '나'에게 맞춘 건강 가이드 앱입니다.
 
 
-<img src="poppin_store.png" width=500/>
+<img src="1.webp" width=250/>&nbsp;
+<img src="unnamed.webp" width=250/>
 
-### 개발한 기능 2가지
+### 개발한 기능 3가지
 
-### 1. 커스텀 캘린더
+### 1. 운동정보 인디케이터
+<img src="KakaoTalk_Photo_2024-08-10-15-55-58 003.jpeg" width=250/>&nbsp;
+<img src="KakaoTalk_Photo_2024-08-10-15-55-59 006.jpeg" width=250/>&nbsp;
+- 헬스라이브러리 제작 및 적용
+- 혈압, 혈당 등 여러가지 원형그래프 페이징처리
+- [그래프 라이브러리](https://github.com/Sorbh/kdGaugeViewFlutter) 커스텀
+- [GetX](https://pub.dev/packages/get) 상태관리 라이브러리 사용
 
-<img src="calendar02.PNG" width=300/>&nbsp;
-<img src="calendarFull.PNG" width=300/>
-
-- react-native-calendar 라이브러리를 커스텀(색상, 모양 등) 합니다.
-- 해당 날짜의 팝업스토어를 BottomSheet 로 보여줍니다.
-- BottomSheet 를 내리면, 전체화면 캘린더가 나타나도록 합니다.
-#### 사용한 기술
-1. [react-native-calendar](https://www.npmjs.com/package/react-native-calendars) 라이브러리 사용
-2. [react-native-bottomsheet-navigation](https://www.npmjs.com/package/react-native-bottomsheet-navigation) 라이브러리 사용
-3. 커스텀 훅 사용
 
 #### 성과
-- 구현하기 까다로운 캘린더를 구현해보고, 캘린더의 기능과 매커니즘을 이해할 수 있었다.
-    
+- 기존의 라이브러리를 fork하여 커스터마이징 하는 방법을 경험할 수 있었다.
+- GetX 상태관리의 장단점을 알아볼 수 있었다.
+  - 장점: 간단하게 Obx()를 이용하여 상태관리를 사용할 수 있다.
+  - 단점: 무분별한 obs변수 사용은 프로젝트가 커질 수록 상태관리가 꼬일 수 있다.
 
-### 2. 알람
-<img src="alarmList.png" width=300/>&nbsp;
-<img src="alarmListNon.png" width=300/>&nbsp;
-<img src="alarmSettingOn.png" width=300/>&nbsp;
-<img src="alarmNoti.PNG" width=300/>&nbsp;
 
-- 파이어베이스 알람 서비스와 연동합니다.
-- FCM Token을 받아와 앱서버에 등록하여 관리합니다.
-- 각종 알람 설정을 할 수 있습니다.
+### 2. 카메라 및 사진자르기 (음식분석AI)
+<img src="KakaoTalk_Photo_2024-08-10-15-55-59 004.jpeg" width=250/>&nbsp;
+<img src="KakaoTalk_Photo_2024-08-10-15-55-59 005.jpeg" width=250/>&nbsp;
+
 #### 사용한 기술
-1. [react-native-firebase/messaging](https://www.npmjs.com/package/@react-native-firebase/messaging) 라이브러리 사용
-2. 커스텀 훅 사용
-    
+- 플러터 [카메라 라이브러리](https://pub.dev/packages/camera) 적용
+- 플러터 [이미지 크롭 라이브러리](https://pub.dev/packages/image_picker) 적용
+
+#### 어려웠던 점
+- 카메라 촬영 후 x, y 좌표를 통해 이미지를 자르는 수학적 계산을 해결 하였다.
+
+### 3. 푸드렌즈 (음식분석AI)
+<img src="KakaoTalk_Photo_2024-08-10-15-55-59 008.jpeg" width=250/>&nbsp;
+<img src="KakaoTalk_Photo_2024-08-10-15-55-59 007.jpeg" width=250/>&nbsp;
+
+#### 사용한 기술
+- x, y 좌표를 통한 음식라벨 찍기
+- 옵션에 따른 칼로리 계산
+
 #### 성과
-- 파이어베이스의 알람 기능을 자세히 경험할 수 있었다.
-- APNS의 개념에 대해서 정리할 수 있었다.
-- CSR, CER 인증서 Provisioning Profile, 푸시키 등에 대해 정리할 수 있었다. [블로그 정리 글](https://velog.io/@unknown420/iOS-%EC%9D%B8%EC%A6%9D%EC%84%9C-%EA%B0%80%EC%9D%B4%EB%93%9C-1%ED%83%84-CSR-%EC%8B%A0%EC%B2%AD%EC%84%9C%EC%99%80-CER-%EC%9D%B8%EC%A6%9D%EC%84%9C)
+- [푸드렌즈](https://www.doinglab.com/home) 를 사용하여 음식정보 제공 서비스를 개발해볼 수 있었다.
+- 좌표를 통해 처리해야 하는 복잡한 기능을 개발해볼 수 있었다.
