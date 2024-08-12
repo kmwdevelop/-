@@ -2,9 +2,11 @@
 
 ## **팝핀이란?**
 
-#### 팝업스토어의 소식을 알림 받고, 정보를 제공받는 서비스 입니다.
+#### 팝업스토어의 소식을 알림 받고, 정보를 제공받는 서비스 입니다.
 
 <img src="poppin_store.png" width=500/>
+
+[iOS App Store](https://apps.apple.com/kr/app/%ED%8C%9D%ED%95%80-%EB%A7%9E%EC%B6%A4%ED%98%95-%ED%8C%9D%EC%97%85-%EC%8A%A4%ED%86%A0%EC%96%B4-%EC%B6%94%EC%B2%9C/id6482994685)
 
 ### 개발한 기능 2가지
 
