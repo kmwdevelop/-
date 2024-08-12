@@ -1,6 +1,7 @@
 # [프로젝트] 건강관리 앱 - Invites (2024.02 ~ 2024.05 / 3개월)
 
 ## **Invites란?**
+[스토어 링크](https://play.google.com/store/apps/details?id=kr.co.hconnect.healthon.gena&hl=ko)
 
 #### 운동 정보, 매 끼니 단/단/지를 쉽게 파악하는 등 '나'에게 맞춘 건강 가이드 앱입니다.
 
