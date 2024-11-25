@@ -4,13 +4,15 @@
     <img width="80%" alt="스크린샷 2024-10-30 오후 5 43 12" src="https://github.com/user-attachments/assets/ea8ef56e-061d-4624-a414-5a88004ef8e2">
 </div>
 
-## 서비스 소개
+## 서비스 소개 
 
 맞춤형 전세 대출 추천 서비스입니다.
 
 당신을 위한 최적의 전세 대출을 찾아드릴게요
 
 최신 정보를 바탕으로 맞춤형 대출 솔루션을 제공받으세요.
+
+https://myzipplan.com/
 
 ## 개발 배경 및 목표
 
